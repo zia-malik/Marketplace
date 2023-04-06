@@ -7,11 +7,11 @@ module.exports = {
   networks: {
     hardhat:{},
     goerli:{
-      url: "https://goerli.infura.io/v3/ba292433385a46808635f242c994220d",
-      accounts: ["576ea9811b6115f171e8f572030df4d980626f3a4578ea3fec6c54a2c2fdd47e"]
+      url: "your infura url",
+      accounts: ["your private key"]
     }
   },
   etherscan: {
-    apiKey: "DW3K7K8DF4B28KNMYWBFCMTNJ7DD2YJS48",
+    apiKey: "Your etherscan api key",
   }
 };
